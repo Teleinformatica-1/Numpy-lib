@@ -29,7 +29,7 @@ print(np.sin(array_impares))
 
 
 #Sumar, restar, multiplicar y dividir arrays entre arrays
-print("Array de pares - array de pares:")
+print("Array de pares + array de pares:")
 print(array_pares + array_pares)
 
 print("Array de impares - array de impares:")
@@ -39,7 +39,7 @@ print("Array de cero a diez * array de cero a diez:")
 print(array_CeroDiez * array_CeroDiez)
 
 print("Array de unos / array de unos:")
-print(arrayUnos/arrayUnos)
+print(arrayUnos / arrayUnos)
 
 print("Multiplicación matricial en cruz entre array de pares y array de impares:")
 print(array_pares @ array_impares)
