@@ -13,11 +13,17 @@ arrayAleatoriosEnteros = np.random.randint(20, size=20)
 print("Array de 20 enteros aleatorios:")
 print(arrayAleatoriosEnteros)
 
-#Array llenos de 0 o 1 
+#Array Vacio
+arrayVacio = np.empty((2,10))
+print("Arreglo vacio:")
+print(arrayVacio)
+
+#Array lleno de 0  
 arrayCeros = np.zeros(10)
 print("Arreglo de ceros:")
 print(arrayCeros)
 
+#Array lleno de 1
 arrayUnos = np.ones(10)
 print("Arreglo de unos:")
 print(arrayUnos)
